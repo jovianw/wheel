@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'EB Garamond';
+    margin: 0;
+    /* padding: 0; */
+    height: calc(100vh + 2px);
+}
+
+#circle {
+    position: fixed;
+    border: 5px solid white;
+    border-radius: 50%;
+    height: 72vw;
+    width: 72vw;
+    top: calc(50vh - 36vw);
+    left: 74vw;
+}
+
+button {
+    border: none;
+    background-color: white;
+    font-family: 'EB Garamond';
+}
+
+.item {
+    position: fixed;
+    background-color: white;
+    height: 10vw;
+    width: 28vw;
+    transition: transform 500ms;
+    top: calc(50vh - 5vw);
+    left: 60vw;
+    transform-origin: 50vw 50%;
+    overflow: hidden;
+    margin: 0;
+}
+
+.item p {
+    color: black;
+    text-align: center;
+    font-size: 3vw;
+}
+
+#scroll {
+    height: 0;
+}
+
+#text_container {
+    position: fixed;
+}
+
