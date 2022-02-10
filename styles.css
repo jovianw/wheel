@@ -7,6 +7,10 @@ body {
     height: calc(100vh + 2px);
 }
 
+#text_container {
+    padding: 24px;
+}
+
 #circle {
     position: fixed;
     border: 5px solid white;
